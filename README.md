@@ -23,7 +23,7 @@ dựa trên hành vi mua hàng thực tế — giúp business đưa ra đúng ac
 ---
 
 ## Architecture
-
+```
 Raw CSV (Kaggle)
 ↓
 Load & Clean          [Kaggle Notebook]
@@ -41,7 +41,7 @@ Model Training        [Databricks + MLflow]
 Batch Scoring         [Databricks]
 ↓
 Monitoring            [Databricks]
-
+```
 ---
 
 ## Pipeline Flow
