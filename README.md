@@ -1,6 +1,6 @@
 # Retail MLOps Pipeline
 
-> End-to-end customer segmentation pipeline built on real transaction data —
+> End-to-end customer segmentation pipeline built on real transaction data -
 > from raw events to scored segments, orchestrated and tracked in production.
 
 ---
@@ -9,13 +9,13 @@
 
 Một retailer có hàng triệu transactions nhưng không biết customers của mình là ai.
 Project này build pipeline tự động phân loại **5,878 customers** thành 4 segments
-dựa trên hành vi mua hàng thực tế — giúp business đưa ra đúng action cho đúng nhóm khách.
+dựa trên hành vi mua hàng thực tế - giúp business đưa ra đúng action cho đúng nhóm khách.
 
 ---
 
 ## Dataset
 
-- **Source**: [Online Retail II — UCI ML Repository](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
+- **Source**: [Online Retail II - UCI ML Repository](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
 - **Raw size**: 1,067,371 transactions | 8 columns
 - **After cleaning**: 805,549 rows | 5,878 unique customers
 - **Period**: Dec 2009 → Dec 2011
@@ -30,7 +30,7 @@ Load & Clean          [Kaggle Notebook]
 ↓
 EDA                   [Kaggle Notebook]
 ↓
-Spark Aggregation     [Databricks — PySpark]
+Spark Aggregation     [Databricks - PySpark]
 ↓
 Feature Engineering   [Databricks]
 ↓
@@ -102,7 +102,7 @@ spark_aggregation → feature_engineering → labeling → training → scoring
 ### MLflow Metrics Comparison
 ![MLflow Metrics](assets/mlflow_metrics.webp)
 
-### Databricks Workflows — Pipeline Run
+### Databricks Workflows - Pipeline Run
 ![Pipeline Runs](assets/pipeline_runs.webp)
 ## Tech Stack
 
