@@ -94,7 +94,16 @@ spark_aggregation → feature_engineering → labeling → training → scoring
 - Full run history + audit trail
 
 ---
+##  Screenshots
 
+### MLflow Model Registry
+![MLflow Models](assets/mlflow_models.webp)
+
+### MLflow Metrics Comparison
+![MLflow Metrics](assets/mlflow_metrics.webp)
+
+### Databricks Workflows — Pipeline Run
+![Pipeline Runs](assets/pipeline_runs.webp)
 ## Tech Stack
 
 | Layer | Tool |
